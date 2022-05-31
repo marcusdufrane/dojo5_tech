@@ -7,9 +7,8 @@ This example was created and run on a Windows platform using Windows Subsystem f
 
 This example uses the stm32 embedded_hal crate and examples to configure usart1 and send "Hello Dojo"
 
-Assuming you have a up to date rust development environment, building the example is as simple as
+Assuming you have a up to date rust development environment you will need to add the thumbv7em-none-eabihf target with `rustup target add thumbv7em-none-eabihf`and then building the example is as simple as running `cargo build --release` from the hello-dojo directory.
 
-`cargo build --release`
 
 The resulting ELF file is located in `hello-dojo/target/thumbv7em-none-eabihf/release/hello-dojo`
 
